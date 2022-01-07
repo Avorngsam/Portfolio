@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #fce138;
+    --primary-color: #19242C;
     --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
+    --tertiary-color: #3A5163;
   }
 
 * {
@@ -12,7 +12,8 @@
 
 body {
       color: var(--tertiary-color);
-    font-family: Helvetica, Arial, sans-serif;
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: #D7E4EF 
   }
 
   /* apply styles to <header> */
@@ -80,7 +81,6 @@ header {
 /* hero style start */
   .hero {
   padding: 60px;
-  background-image: url("../images/hero-bg.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -93,7 +93,17 @@ header {
 
 .hero-cta{
 width: 35%;
-text-align: right;
+text-align: end;
+background-image: url("bg.jpg");
+padding: 60px;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: flex-start;
+background-attachment: fixed;
+background-position: 80%;
 margin: 3.5%;
 color: #fff;
 font-size: 18px;
@@ -104,7 +114,6 @@ line-height: 1.2;
 font-style: italic;
 font-size: 55px;
 color: var(--primary-color);
-text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
@@ -219,7 +228,7 @@ text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
 /* hero style end */
 
-/* basics */
+/* section */
 section {
     padding: 60px;
   }
@@ -229,7 +238,7 @@ section {
   color: var(--secondary-color);
   border-bottom: 3px solid;
   padding-bottom: 20px;
-  text-align: center;
+  text-align: left;
   margin: 0 auto 35px auto;
   width: 50%;
 }
@@ -250,7 +259,7 @@ section {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 /* what you do */
